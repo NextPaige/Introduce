@@ -1,0 +1,36 @@
+﻿<Page x:Class="Introduce.Intro"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Introduce"
+      xmlns:gif="http://wpfanimatedgif.codeplex.com"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Intro" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0">
+            <TextBlock x:Name="txt_Intro"
+                   Margin="30 30 0 0"
+                   Text="안녕하세요! 상단 메뉴를 눌러주세요."
+                   Foreground="AliceBlue" FontSize="18" 
+                   FontWeight="DemiBold"
+                   FontFamily="font/#D2Coding"/>
+
+        </StackPanel>
+
+        
+        <Image Grid.Row="1"
+        gif:ImageBehavior.AnimatedSource="assets/intro_animation.gif"
+        gif:ImageBehavior.RepeatBehavior="1x"/>
+        
+
+
+    </Grid>
+</Page>

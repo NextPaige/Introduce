@@ -1,0 +1,52 @@
+﻿<Page x:Class="Introduce.Home"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Introduce"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Home">
+
+
+
+    <StackPanel>
+
+        <TextBlock Text="소개합니다" FontSize="20" Foreground="AliceBlue"
+                   Margin="60 0 0 20" FontFamily="font/#D2Coding"/>
+        
+        <StackPanel Orientation="Horizontal" Margin="0 0 0 20">
+            <Image Width="50" Height="50" Source="icons/name-tag.png"/>
+            <TextBlock Text="Ki Hyeon Yang" HorizontalAlignment="Center"
+                       VerticalAlignment="Center" FontSize="20"
+                       FontFamily="font/#D2Coding" Foreground="AliceBlue"/>
+        </StackPanel>
+
+
+        <TextBlock
+            Text="관심기술 스택 : WPF, ASP.NET CORE, Xamarin"
+            Foreground="AliceBlue" FontSize="14"
+            FontFamily="font/#D2Coding" Margin="0 0 0 30"/>
+
+        <TextBlock
+            Text="안녕하세요, 관심가져주셔서 감사합니다!"
+            Foreground="AliceBlue" FontSize="14"
+            FontFamily="font/#D2Coding"/>
+
+        <TextBlock
+            Text="자세가 되어 있는 신입 개발자로 준비중입니다."
+            Foreground="AliceBlue" FontSize="14"
+            FontFamily="font/#D2Coding"/>
+
+        <TextBlock
+            Text="책임감 있고 성실하게 임하겠습니다."
+            Foreground="AliceBlue" FontSize="14"
+            FontFamily="font/#D2Coding"/>
+
+        <TextBlock
+            Text="감사합니다!!"
+            Foreground="AliceBlue" FontSize="14"
+            FontFamily="font/#D2Coding"/>
+
+    </StackPanel>
+</Page>

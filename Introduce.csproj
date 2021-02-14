@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\intro_animation.gif" />
+    <None Remove="font\D2Coding.ttc" />
+    <None Remove="icons\close.png" />
+    <None Remove="icons\email.png" />
+    <None Remove="icons\icon.png" />
+    <None Remove="icons\minimize.png" />
+    <None Remove="icons\name-tag.png" />
+    <None Remove="icons\phone.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\intro_animation.gif" />
+    <Resource Include="font\D2Coding.ttc" />
+    <Resource Include="icons\email.png" />
+    <Resource Include="icons\icon.png" />
+    <Resource Include="icons\minimize.png" />
+    <Resource Include="icons\close.png" />
+    <Resource Include="icons\name-tag.png" />
+    <Resource Include="icons\phone.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
